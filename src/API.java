@@ -11,7 +11,9 @@ public class API {
             PrintWriter writer = new PrintWriter(output, true);
             writer.println("STATUS 0");
             writer.println("THROTTLE 0 0.7");
-            writer.println("TICK 1");
+            writer.println("TICK 2");
+            writer.println("THROTTLE 0 0.55");
+            writer.println("TICK 7");
             writer.println("STATUS 0");
 
             InputStream input = socket.getInputStream();
