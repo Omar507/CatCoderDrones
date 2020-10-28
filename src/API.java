@@ -11,7 +11,7 @@ public class API {
             socket = new Socket("0.0.0.0", 8080);
             OutputStream output = socket.getOutputStream();
             PrintWriter writer = new PrintWriter(output, true);
-            writer.println("test");
+            writer.println("STATUS 0");
 
             InputStream input = socket.getInputStream();
 
